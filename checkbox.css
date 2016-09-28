@@ -1,0 +1,24 @@
+.jquery-checkbox{
+    display:inline-block;
+    display:-moz-inline-stack;
+    display:inline-block; 
+    zoom:1;
+    *display:inline;
+    vertical-align:top;
+    cursor: pointer;
+    margin-right: 1px;
+    margin-top:0;
+}
+.jquery-checkbox .mark {display: inline;}
+
+.jquery-checkbox img {
+    vertical-align: middle; 
+    width: 16px;
+    height: 16px;
+    background: url(/img/sp-checkbox.png) 0 0 no-repeat;
+}
+
+.jquery-checkbox img{
+    background-position: 0 -72px;
+}
+.jquery-checkbox-checked img{background-position: 0 -108px;}
